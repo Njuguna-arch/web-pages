@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222;
+}
+canvas {
+  display: block;
+  margin: 0 auto;
+  background-color: #624c4c;
+}
+#controls {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btn {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  font-size: 24px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+.btn:active {
+  background-color: #888;
+}
+h1{
+  background-color: azure;
+  text-align: center;
+  color: blue;
+}
