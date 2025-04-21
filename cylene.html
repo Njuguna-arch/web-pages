@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise for You</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0e6f6;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        .header, .footer {
+            margin: 20px 0;
+        }
+        .hidden-message {
+            display: none;
+            color: #a83279;
+            font-size: 1.5em;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            max-width: 200px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .special-photo {
+            max-width: 300px;
+            margin-top: 20px;
+            border-radius: 10px;
+            display: none; /* Initially hide the special photo */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Hello my bestie 💖💖💖Missy💖💖💖</h1>
+        <p>Here's a special surprise just for you.</p>
+    </div>
+
+    <div class="message">
+        <p>I designed this to express my gratitude for our friendship. May we continue this way..</p>
+    </div>
+
+    <div class="gallery">
+        <img src="one.jpg" alt="Memory 2">
+        <img src="two.jpg" alt="Memory 3">
+        <img src="three.jpg" alt="Memory 4">
+        <img src="four.jpg" alt="Memory 5">
+        <img src="five.jpg" alt="Memory 1">
+    </div>
+
+    <div class="interactive">
+        <button onclick="showMessage()">Click me for a special message!</button>
+        <p class="hidden-message" id="message">💖💖I wish we could make more memories 💖💖💖💖 I love you dear friend💖💖💖💖</p>
+    </div>
+    <h3 class="mesage">Special memory:</h3>
+    <div class="interactive">
+        <button onclick="showImage()">Click me for a special image!</button>
+        <img src="IMG20240317121120.jpg" alt="Special Photo" class="special-photo" id="special-photo">
+    </div>
+
+    <div class="footer">
+        <p>Looking forward to making more memories with you my dear bestie💖💖! from your friend.... click the button above</p>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById('message').style.display = 'block';
+        }
+        function showImage() {
+            document.getElementById('special-photo').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
