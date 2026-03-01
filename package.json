@@ -1,7 +1,7 @@
 {
-  "name": "admin-portal-backend",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "Backend for Admin Portal with Express, MongoDB, JWT",
+  "description": "School portal backend with admin, teacher, and pupil routes",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
@@ -16,7 +16,7 @@
     "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
-    "express": "^5.2.1",
+    "express": "^4.22.1",
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.0.1"
   },
